@@ -1,10 +1,9 @@
 package com.zhipu.oapi.core;
 
+import java.util.concurrent.TimeUnit;
+
 import com.zhipu.oapi.core.cache.ICache;
 import com.zhipu.oapi.core.httpclient.IHttpTransport;
-import com.zhipu.oapi.utils.StringUtils;
-
-import java.util.concurrent.TimeUnit;
 
 public class ConfigV3 {
 
@@ -128,7 +127,7 @@ public class ConfigV3 {
 
     public void setApiSecretKey(String apiSecretKey) {
         this.apiSecretKey = apiSecretKey;
-        String[] arrStr = apiSecretKey.split(".");
+        String[] arrStr = apiSecretKey.split("\\.");
         if (arrStr.length != 2) {
             throw new RuntimeException("invalid apiSecretKey");
         }
