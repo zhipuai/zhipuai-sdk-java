@@ -1,7 +1,10 @@
-# 智谱大模型开放接口SDK
+# [DEPRECATED] 智谱大模型开放接口SDK
 
-智谱[开放平台](http://open.bigmodel.cn/howuse/platformintroduced)大模型接口Java SDK（Big Model API SDK in
-Java），让开发者更便捷的调用智谱开放API
+⚠️ **此项目已废弃/停止维护！**
+
+此项目已迁移至新地址：[MetaGLM智谱官方SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)，MetaGLM是智谱官方维护的开源项目，致力于为大模型开发者提供全面的开发者工具、大模型知识体系以及基础和企业级的应用案例
+
+Please use [MetaGLM SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4) instead. MetaGLM is an open-source project officially maintained by ZhipuAI, dedicated to providing comprehensive developer tools, large model knowledge systems, and both basic and enterprise-level application cases for large model developers.
 
 ## 简介
 - <font color="red">**java sdk仍在开发测试阶段，有bug请留言联系**</font>
